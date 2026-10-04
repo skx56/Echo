@@ -260,7 +260,7 @@ export default function EchoApp() {
     >
       <header className="sticky top-0 z-20 border-b border-white/10 bg-[#09090b]/80 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-6xl items-center gap-4 px-5">
-          <a href="/" className="text-sm text-zinc-400 transition hover:text-white">
+          <a href="https://skx56.github.io/" className="text-sm text-zinc-400 transition hover:text-white">
             Portfolio
           </a>
           <div className="h-4 w-px bg-white/10" />

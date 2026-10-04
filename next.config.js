@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
+const basePath = process.env.GITHUB_ACTIONS ? '/Echo' : ''
+
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath,
+  assetPrefix: basePath || undefined,
   reactStrictMode: false,
   images: {
     unoptimized: true,
