@@ -2,6 +2,7 @@
 const basePath = process.env.GITHUB_ACTIONS ? '/Echo' : ''
 
 const nextConfig = {
+  agentRules: false,
   output: 'export',
   trailingSlash: true,
   basePath,
